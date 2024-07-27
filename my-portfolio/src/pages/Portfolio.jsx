@@ -3,8 +3,10 @@ import React from 'react';
 import Project from '../components/Project';
 
 const projects = [
-  { title: 'Project 1', image: '/path/to/image1.jpg', deployedLink: '#', githubLink: '#' },
-  { title: 'Project 2', image: '/path/to/image2.jpg', deployedLink: '#', githubLink: '#' },
+  { title: 'Weather Dashboard', image: '/src/assets/weather-app.png', deployedLink: 'https://jerrika.github.io/weather-dashboard/', githubLink: 'https://github.com/Jerrika/weather-dashboardLinks"' },
+  { title: 'Personal Blog', image: '/Users/jerrikagabriel/bootcamp/react-challenge-react-portfolio/my-portfolio/src/assets/personal-blog.png', deployedLink: 'https://jerrika.github.io/blog/', githubLink: 'https://github.com/Jerrika/blogLinks' },
+  { title: 'Taskboard Tracker', image: '/src/assets/taskboard-tracker.png', deployedLink: 'https://jerrika.github.io/task-board', githubLink: 'https://jerrika.github.io/task-board' },
+
   // Add more projects here
 ];
 
