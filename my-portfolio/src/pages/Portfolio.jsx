@@ -1,11 +1,17 @@
 // src/pages/Portfolio.jsx
 import React from 'react';
 import Project from '../components/Project';
+import weatherAppImage from '';
+import weatherAppImage from '../src/assets/weather-app.png';
+import personalBlogImage from '../assets/'
+import personalBlogImage from '../src/assets/personal-blog.png';
+import taskboardTrackerImage from '../assets'
+import taskboardTrackerImage from '../assets/taskboard-tracker.png';
 
 const projects = [
-  { title: 'Weather Dashboard', image: '/src/assets/weather-app.png', deployedLink: 'https://jerrika.github.io/weather-dashboard/', githubLink: 'https://github.com/Jerrika/weather-dashboard' },
-  { title: 'Personal Blog', image: '/src/assets/personal-blog.png', deployedLink: 'https://jerrika.github.io/blog/', githubLink: 'https://github.com/Jerrika/blogLinks' },
-  { title: 'Taskboard Tracker', image: '/src/assets/taskboard-tracker.png', deployedLink: 'https://jerrika.github.io/task-board', githubLink: 'https://jerrika.github.io/task-board' },
+  { title: 'Weather Dashboard', image: './src/assets/weather-app.png', deployedLink: 'https://jerrika.github.io/weather-dashboard/', githubLink: 'https://github.com/Jerrika/weather-dashboard' },
+  { title: 'Personal Blog', image: './src/assets/personal-blog.png', deployedLink: 'https://jerrika.github.io/blog/', githubLink: 'https://github.com/Jerrika/blogLinks' },
+  { title: 'Taskboard Tracker', image: './src/assets/taskboard-tracker.png', deployedLink: 'https://jerrika.github.io/task-board', githubLink: 'https://jerrika.github.io/task-board' },
 
   // Add more projects here
 ];
